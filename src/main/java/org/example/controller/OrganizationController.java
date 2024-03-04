@@ -29,9 +29,6 @@ public class OrganizationController {
         return organization;
     }
 
-
-
-
     @GetMapping(value = "/organizations", produces = "application/hal+json")
     public CollectionModel<Organization> generateOraganizations(){
         List<Organization> allOrganizations = organizationService.getAllOrganizations();
