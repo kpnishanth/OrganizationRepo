@@ -1,8 +1,8 @@
-INSERT INTO ORGANIZATION (id, organization_Name, license_Id)
-VALUES ('122','ICE','89');
-INSERT INTO ORGANIZATION (id, organization_Name, license_Id)
-VALUES ('65','INFOSYS','45');
-INSERT INTO ORGANIZATION (id, organization_Name, license_Id)
-VALUES ('6545','WIPRO','66');
-INSERT INTO ORGANIZATION (id, organization_Name, license_Id)
-VALUES ('87','Pixel','458');
+INSERT INTO ORGANIZATION (id,organization_Name, license_Id)
+VALUES ('45','ICE','622');
+INSERT INTO ORGANIZATION (id,organization_Name, license_Id)
+VALUES ('545','ICE','622');
+INSERT INTO ORGANIZATION (id,organization_Name, license_Id)
+VALUES ('8474','ICE','622');
+INSERT INTO ORGANIZATION (id,organization_Name, license_Id)
+VALUES ('987','ICE','622');

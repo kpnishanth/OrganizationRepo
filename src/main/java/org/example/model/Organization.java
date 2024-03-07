@@ -13,8 +13,8 @@ import lombok.Data;
 
 public class Organization extends RepresentationModel<Organization> {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private String organizationId;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
     private String organizationName;
     private String licenseId;
 }
